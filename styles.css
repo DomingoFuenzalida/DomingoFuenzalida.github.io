@@ -1,0 +1,22 @@
+table{
+    background-color: yellow;
+    color: blue;
+    border: 2px solid #ff0000;
+
+    
+}
+
+td, th{
+    border: 2px solid #ff0000;
+}
+
+#Table-top{
+    font-weight: bold;
+    color: red;
+}
+
+body{
+    margin-left: 2%;
+    margin-right: 50%;
+    font: 1em verdana;
+  }
