@@ -9,16 +9,18 @@
 <body>
     <meta charset="UTF-8">
     <h1>Domingo Fuenzalida</h1>
-    <h2>Ingeniería Civil en ciencias de la computación</h2>
-    <h2>2021</h2>
+    <h2 class="subtitle">civil engineering in computer science</h2>
+    <h2 class="subtitle">2021</h2>
     <a href="https://github.com/DomingoFuenzalida/DomingoFuenzalida.github.io.git">Link to my github</a>
-    <h2>Personal Summary</h2>
+    <div id="personal-summary">
+    <h2 id="Summary">Personal Summary:</h2>
     <p>
         My name is Domingo Fuenzalida, a student of Ingeniería Civil en ciencias de la computación at the Universidad de los Andes.
         I was born on August 19, 2002, so I am currently 21 years old. 
         I have 4 brothers and a sister, so 8 people live in my house including my parents and me.
         I am currently struggling to make a web page with my personal information.
     </p>
+    </div>
     <table>
         <tr id="Table-top">
             <td>Skill</td>
@@ -58,15 +60,26 @@
         </tr>
         <tr>
             <td>Spanish</td>
-            <td>Expert</td>
+            <td>Native</td>
         </tr>
         <tr>
             <td>English</td>
             <td>Advanced</td>
         </tr>
     </table>
-    <input type="text">
-    <button>Insert</button>
+    <div id="Comentaries" class="common">
+        <p class="common underlined"></p>
+    </div>
+    <input type="text" id="insert">
+    <button onclick="addComment()">Insert</button>
+
+    <script>
+        function addComment(){
+            var inputValue = document.getElementById("insert").value;
+            var comment = document.getElementById("Comentaries");
+            comment.innerHTML = "<p>" + inputValue + "<p>";
+        }
+    </script>
 
     
 </body>

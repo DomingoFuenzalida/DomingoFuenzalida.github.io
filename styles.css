@@ -2,8 +2,7 @@ table{
     background-color: yellow;
     color: blue;
     border: 2px solid #ff0000;
-
-    
+    margin-bottom: 10px;
 }
 
 td, th{
@@ -16,7 +15,41 @@ td, th{
 }
 
 body{
-    margin-left: 2%;
-    margin-right: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
     font: 1em verdana;
   }
+
+
+body{
+    background: linear-gradient(to right, #f0f000, #00fff0, #f0f000);
+}
+
+h1{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+#Summary{
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+}
+
+#personal-summary{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:2px solid #ff0000;
+}
+
+a{
+    background-color: yellow;
+    border: 2px solid red;
+    font-size: 30px;
+    color: blue
+}
