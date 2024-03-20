@@ -1,4 +1,8 @@
 
 body{
-    background-color: aqua;
+    background-color: darkslategray;
+}
+
+.comment{
+    color: white;
 }

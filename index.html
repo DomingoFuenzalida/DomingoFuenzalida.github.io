@@ -9,7 +9,7 @@
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <script src="index.js"></script>
 
 
         <div class="container text-center">
@@ -84,7 +84,34 @@
             </div>
             <div class="row">
                 <div class="col align-self-center">
-                    <img src="descarga.gif" class="img-fluid" alt="...">
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <video src="cerveza cristal 1.mp4" controls></video>
+                      </div>
+                      <div class="carousel-item">
+                        <video src="cerveza cristal 3.mp4" controls></video>
+                      </div>
+                      <div class="carousel-item">
+                        <video src="cerveza cristal 4.mp4" controls></video>
+                      </div>
+                      <div class="carousel-item">
+                        <video src="cerveza cristal 5.mp4" controls></video>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Commentaries" aria-label="commentaries" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
                 </div>
             </div>
           </div>
